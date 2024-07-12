@@ -1,6 +1,6 @@
 {
-  "name": "react-native-material-dropdown",
-  "version": "0.11.1",
+  "name": "@react-native-oh-tpl/react-native-material-dropdown",
+  "version": "0.11.1-0.0.1",
   "license": "BSD-3-Clause",
   "author": "Alexander Nazarov <n4kz@n4kz.com>",
 
@@ -21,7 +21,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/n4kz/react-native-material-dropdown.git"
+    "url": "git://github.com/react-native-oh-library/react-native-material-dropdown.git"
+  },
+
+  "harmony": {
+    "alias": "react-native-material-dropdown"
   },
 
   "peerDependencies": {
@@ -41,6 +45,7 @@
 
   "dependencies": {
     "prop-types": "^15.5.9",
+    "react-native-material-dropdown":"0.11.1",
     "react-native-material-buttons": "^0.5.0",
     "react-native-material-ripple": "^0.8.0",
     "react-native-material-textfield": "^0.12.0"

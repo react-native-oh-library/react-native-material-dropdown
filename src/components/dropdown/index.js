@@ -146,9 +146,9 @@ export default class Dropdown extends PureComponent {
     renderBase: PropTypes.func,
     renderAccessory: PropTypes.func,
 
-    containerStyle: (ViewPropTypes || View.propTypes).style,
-    overlayStyle: (ViewPropTypes || View.propTypes).style,
-    pickerStyle: (ViewPropTypes || View.propTypes).style,
+    containerStyle: (PropTypes || View.propTypes).style,
+    overlayStyle: (PropTypes || View.propTypes).style,
+    pickerStyle: (PropTypes || View.propTypes).style,
 
     supportedOrientations: PropTypes.arrayOf(PropTypes.string),
 
@@ -506,12 +506,12 @@ export default class Dropdown extends PureComponent {
     return (
       <TextField
         label=''
-        labelHeight={dropdownOffset.top - Platform.select({ ios: 1, android: 2 })}
+        labelHeight={dropdownOffset.top - Platform.select({ ios: 1, android: 2, harmony: 1 })}
 
         {...props}
 
         value={title}
-        editable={false}
+        editable={true}
         onChangeText={undefined}
         renderAccessory={renderAccessory}
       />
