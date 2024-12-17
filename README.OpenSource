@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-material-dropdown",
+        "License": "BSD-3-Clause",
+        "License File": "https://github.com/n4kz/react-native-material-dropdown/blob/master/license.txt",
+        "Version Number": "0.11.1",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/n4kz/react-native-material-dropdown",
+        "Description": "Material dropdown"
+    }
+]
